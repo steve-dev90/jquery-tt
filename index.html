@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery</title>
+	<style>
+    .buttons {
+      margin: 3rem 0 15rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .tom-button {
+      width: 200px;
+      font-size: 1.5rem;
+      color: darkorchid;
+      border-color: blue;
+      border-radius: 10px;
+      box-shadow: 5px 10px blue
+    }
+
+    .toms {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .tom-text {
+      font-size: 1.7rem;
+      color: darkorange;
+    }
+
+    #tom3 {
+      position: relative;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="buttons">
+    <button class="colour-button tom-button">This button makes "TOM1" change colour</button>
+    <button class="size-button tom-button">This button makes "TOM2" change size</button>
+    <button class="up-button tom-button">This button makes "TOM3" change go up</button>
+  </div>
+
+  <div class="toms">
+    <div><h1 id="tom1" class="tom-text">TOM1</h1></div>
+    <div><h1 id="tom2" class="tom-text">TOM2</h1></div>
+    <div><h1 id="tom3" class="tom-text">TOM3</h1></div>
+  </div>
+
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
